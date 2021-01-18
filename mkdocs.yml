@@ -1,3 +1,17 @@
 site_name: My Docs
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
